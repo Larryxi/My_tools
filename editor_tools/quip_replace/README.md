@@ -1,12 +1,12 @@
 **usage**
 
-    #!shell
-    age: quip_image.py quip_markdown_file
-
+    $ python quip_replace/quip_replace.py 
+    Usage: quip_replace.py quip_markdown_file
+    
     Options:
-    -h, --help              show this help message and exit
-    -f FILENAME, --filename=FILENAME
-                            The quip markdown file to replace image
+    -h, --help            show this help message and exit
+        -f FILENAME, --filename=FILENAME
+                                The quip markdown file to replace image
 
 **note**
 
