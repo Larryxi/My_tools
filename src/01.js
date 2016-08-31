@@ -9,9 +9,6 @@ if (window.XMLHttpRequest) {
 else if (window.ActiveXObject) {
 	ajax = new ActiveXObject("Microsoft.XMLHTTP");
 }
-else {
-	return;
-}
 ajax.open("POST",url,true);
 ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 ajax.send(post_str);
