@@ -12,6 +12,6 @@ else if (window.ActiveXObject) {
 else {
 	return;
 }
-xmlhttp.open("POST",url,true);
-xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-xmlhttp.send(post_str);
+ajax.open("POST",url,true);
+ajax.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+ajax.send(post_str);
